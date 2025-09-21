@@ -25,8 +25,7 @@
 ### The regex pattern and some of the utility methods were lifted straight from an internet regex generator, and then the test file was written by hand, conscious of time I omitted many unit tests which would have been needed if in any way this would be considered a viable production solution.
 
 ### Finally, I switched to Postman testing of various example hand typed dynamic clinical notes, whilst also running the api in my docker environment.
-### I spotted some edge cases, which meant tweaking to the regex, and I was not happy with the error handling, as nothing
-### was coming through in the docker logs, so went back to inject a logger into the service and made sure that when edge cases and illogical weights and heights were found that at least they were logged.
+### I spotted some edge cases, which meant tweaking to the regex, and I was not happy with the error handling, as nothing was coming through in the docker logs, so went back to inject a logger into the service and made sure that when edge cases and illogical weights and heights were found that at least they were logged.
 
 ### approx 5.5 hours spent.
 

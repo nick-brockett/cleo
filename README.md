@@ -1,13 +1,14 @@
 # Health Metric Extraction API
 
-## Hi, I would prefer to discuss my design choices in person, however I will write at a high-level my approach and hope it goes some way to explain what I have delivered!
+### Hi, I would prefer to discuss my design choices in person, however I will write at a high-level my approach and hope it goes some way to explain what I have delivered!
 
-## I felt that the stated requirements to extract weight and height metrics from free-text clinical notes lacked so much clarity that I could not evaluate the best coding solution or approach to take.
+### I felt that the stated requirements to extract weight and height metrics from free-text clinical notes lacked so much clarity that I could not evaluate the best coding solution or approach to take.
 
-## The idea that I could not programmatically work out which weight (if there were more than one reference in the text) would be the correct one to report bothered me and I felt stumped to proceed without consulting and receiving more clarity.
-## I asked myself the following question, what if the clinician had written in the notes the following example :- `the patient stated their weight was 75Kg but when admitted their weight was found to be 95kg `
+### The idea that I could not programmatically work out which weight (if there were more than one reference in the text) would be the correct one to report bothered me and I felt stumped to proceed without consulting and receiving more clarity.
+### I asked myself the following question, what if the clinician had written in the notes the following example :-
+`the patient stated their weight was 75Kg but when admitted their weight was found to be 95kg `
 
-## Conscious of time I switched to examining the following instruction given in the test:- `Items to consider:While implementing the above you should take into consideration key items such as validation, scalability, security and testing `
+### Conscious of time I switched to examining the following instruction given in the test:- `Items to consider:While implementing the above you should take into consideration key items such as validation, scalability, security and testing `
 
 ## Security & Scalability are easier and more comfortable for me to think through, so I created a new go project based on a previous one I had already completed found here https://github.com/nick-brockett/eagle-bank this project now sits next to it at  https://github.com/nick-brockett/cleo
 
